@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { Tool, AppState } from './types';
-import Sidebar from './components/Sidebar';
-import OnPageSeoTool from './components/OnPageSeoTool';
-import KeywordGeneratorTool from './components/KeywordGeneratorTool';
-import BlogPostWriterTool from './components/BlogPostWriterTool';
-import RankTrackerTool from './components/RankTrackerTool';
+import Sidebar from '../components/Sidebar';
+import OnPageSeoTool from '../components/OnPageSeoTool';
+import KeywordGeneratorTool from '../components/KeywordGeneratorTool';
+import BlogPostWriterTool from '../components/BlogPostWriterTool';
+import RankTrackerTool from '../components/RankTrackerTool';
 
 const LOCAL_STORAGE_KEY = 'n8n-seo-tool-webhooks';
 
